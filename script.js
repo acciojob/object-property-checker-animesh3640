@@ -6,13 +6,9 @@ function hasKey(key) {
 		if (i==key) {
 			return true;
 		}
-		else{
-			return false;
-		}
-		return i;
 	}
+	return false
 }
-
 //Do not change the code below
 const key = prompt("Enter Key.");
 alert(hasKey(key));
